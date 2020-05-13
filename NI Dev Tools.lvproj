@@ -28,7 +28,7 @@
 			</Item>
 			<Item Name="Simple Math Toolkit" Type="Folder">
 				<Item Name="Library" Type="Folder">
-					<Item Name="Siple Math Toolkit.lvlib" Type="Library" URL="../Source/Simple Math Toolkit/Library/Siple Math Toolkit.lvlib"/>
+					<Item Name="Simple Math Toolkit.lvlib" Type="Library" URL="../Source/Simple Math Toolkit/Library/Simple Math Toolkit.lvlib"/>
 				</Item>
 				<Item Name="Palette Files" Type="Folder">
 					<Item Name="Simple Math Toolkit" Type="Folder">
@@ -150,7 +150,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/NI Dev Tools Pckg/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">ni-dev-tools_1.0.0-22_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">ni-dev-tools_1.0.0-25_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
@@ -158,7 +158,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">23</Property>
+				<Property Name="PKG_buildNumber" Type="Int">26</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">NI Dev Tools Pckg</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">3</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -296,7 +296,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Source/Package Builder/Package Builder.lvlib/Build Actions/Post-Build Action Launcher.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A0B7D462-2A8E-4B8D-9CD4-97E8D44BC17C}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/Source Distribution/NI_AB_PROJECTNAME/MNU</Property>
@@ -333,7 +333,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Builds/Source Distribution/Simple Math Toolkit/Lib</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B41B2D0C-3AE2-4AEF-AD29-36143CD92A5C}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/Source Distribution/Simple Math Toolkit/Lib</Property>
@@ -346,7 +346,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{0BA9C966-5C07-4EE4-A793-D7095BE77242}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Source/Simple Math Toolkit/Library/Siple Math Toolkit.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Source/Simple Math Toolkit/Library/Simple Math Toolkit.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
@@ -370,7 +370,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Builds/Source Distribution/Simple Math Toolkit/MNU</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E03B524B-44B7-4925-97E2-07C1B49D7EE8}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/Source Distribution/Simple Math Toolkit/MNU</Property>
@@ -382,7 +382,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{0BA9C966-5C07-4EE4-A793-D7095BE77242}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Source/Simple Math Toolkit/Library/Siple Math Toolkit.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Source/Simple Math Toolkit/Library/Simple Math Toolkit.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
@@ -411,7 +411,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Builds/Source Distribution/VI Scripting Tools/Lib</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{922302ED-FDE6-4478-9D49-480B33EF3C1C}</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/Source Distribution/VI Scripting Tools/Lib</Property>
@@ -447,7 +447,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Builds/Source Distribution/VI Scripting Tools/MNU</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{44F429F6-6FB4-4E95-B123-4C12243886A9}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/Source Distribution/VI Scripting Tools/MNU</Property>

@@ -35,11 +35,13 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Build Actions" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Check &amp; Create Output Folders.vi" Type="VI" URL="../Check &amp; Create Output Folders.vi"/>
-		<Item Name="Get Build Specifications.vi" Type="VI" URL="../Get Build Specifications.vi"/>
-		<Item Name="Package Builder.vi" Type="VI" URL="../Package Builder.vi"/>
+		<Item Name="SubVI" Type="Folder">
+			<Item Name="Source Distribution Builder.vi" Type="VI" URL="../Source Distribution Builder.vi"/>
+			<Item Name="Package Builder.vi" Type="VI" URL="../Package Builder.vi"/>
+			<Item Name="Get Build Specifications.vi" Type="VI" URL="../Get Build Specifications.vi"/>
+			<Item Name="Check &amp; Create Output Folders.vi" Type="VI" URL="../Check &amp; Create Output Folders.vi"/>
+		</Item>
 		<Item Name="Post-Build Action Launcher.vi" Type="VI" URL="../Post-Build Action Launcher.vi"/>
-		<Item Name="Source Distribution Builder.vi" Type="VI" URL="../Source Distribution Builder.vi"/>
 	</Item>
 	<Item Name="Install Actions" Type="Folder">
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
