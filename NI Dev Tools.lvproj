@@ -59,6 +59,7 @@
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="Add Lib to Project.vi" Type="VI" URL="../Add Lib to Project.vi"/>
 		<Item Name="Case Scripter.vi" Type="VI" URL="../Case Scripter.vi"/>
 		<Item Name="TypeDef Scripter.vi" Type="VI" URL="../TypeDef Scripter.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">

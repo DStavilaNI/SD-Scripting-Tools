@@ -33,15 +33,28 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="Class API" Type="Folder">
+		<Item Name="Copy Class to Location.vi" Type="VI" URL="../Class API/Copy Class to Location.vi"/>
+		<Item Name="Open LVClass.vi" Type="VI" URL="../Class API/Open LVClass.vi"/>
+	</Item>
 	<Item Name="Library API" Type="Folder">
 		<Item Name="Add File to Lib.vi" Type="VI" URL="../Library API/Add File to Lib.vi"/>
+		<Item Name="Copy Library to Location.vi" Type="VI" URL="../Library API/Copy Library to Location.vi"/>
+		<Item Name="Open Library.vi" Type="VI" URL="../Library API/Open Library.vi"/>
 		<Item Name="Save Library.vi" Type="VI" URL="../Library API/Save Library.vi"/>
 	</Item>
 	<Item Name="Project API" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Create Lib in Project.vi" Type="VI" URL="../Project API/Create Lib in Project.vi"/>
 		<Item Name="Get Application Refs.vi" Type="VI" URL="../Project API/Get Application Refs.vi"/>
-		<Item Name="Save Project.vi" Type="VI" URL="../Project API/Save Project.vi"/>
 		<Item Name="Set Relative Path.vi" Type="VI" URL="../Project API/Set Relative Path.vi"/>
+		<Item Name="Save Project.vi" Type="VI" URL="../Project API/Save Project.vi"/>
+		<Item Name="Create Folder at Location.vi" Type="VI" URL="../Project API/Create Folder at Location.vi"/>
+		<Item Name="Add File to Project TargetItem.vi" Type="VI" URL="../Project API/Add File to Project TargetItem.vi"/>
+		<Item Name="Get Project Root.vi" Type="VI" URL="../Project API/Get Project Root.vi"/>
+		<Item Name="Get ProjectItem Descendants.vi" Type="VI" URL="../Project API/Get ProjectItem Descendants.vi"/>
+		<Item Name="Open Project.vi" Type="VI" URL="../Project API/Open Project.vi"/>
+		<Item Name="Get ClassItems from ProjectItem.vi" Type="VI" URL="../Project API/Get ClassItems from ProjectItem.vi"/>
 	</Item>
 	<Item Name="VI API" Type="Folder">
 		<Item Name="Block Diagram" Type="Folder">
@@ -50,6 +63,7 @@
 				<Item Name="Create Case Structure Frames.vi" Type="VI" URL="../VI API/Block Diagram API/Case Structure/Create Case Structure Frames.vi"/>
 				<Item Name="Create Case Structure.vi" Type="VI" URL="../VI API/Block Diagram API/Case Structure/Create Case Structure.vi"/>
 				<Item Name="Get Case Struct Terminals.vi" Type="VI" URL="../VI API/Block Diagram API/Case Structure/Get Case Struct Terminals.vi"/>
+				<Item Name="Set Default Case.vi" Type="VI" URL="../VI API/Block Diagram API/Case Structure/Set Default Case.vi"/>
 			</Item>
 			<Item Name="Constants" Type="Folder">
 				<Item Name="Enum" Type="Folder">
@@ -57,7 +71,9 @@
 				</Item>
 				<Item Name="Connect Const to Source.vi" Type="VI" URL="../VI API/Block Diagram API/Constants/Connect Const to Source.vi"/>
 			</Item>
+			<Item Name="SubVI" Type="Folder"/>
 			<Item Name="Tunnels" Type="Folder">
+				<Item Name="Connect Terminals.vi" Type="VI" URL="../VI API/Block Diagram API/Tunnels/Connect Terminals.vi"/>
 				<Item Name="Get Inside Terminals.vi" Type="VI" URL="../VI API/Block Diagram API/Tunnels/Get Inside Terminals.vi"/>
 			</Item>
 			<Item Name="BD CleanUp.vi" Type="VI" URL="../VI API/Block Diagram API/BD CleanUp.vi"/>
@@ -81,4 +97,5 @@
 			<Item Name="SubVI Template.vit" Type="VI" URL="../VI API/General VI API/SubVI Template.vit"/>
 		</Item>
 	</Item>
+	<Item Name="Add ClassLib to Project.vi" Type="VI" URL="../../../../Add ClassLib to Project.vi"/>
 </Library>
