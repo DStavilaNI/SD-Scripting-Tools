@@ -34,13 +34,22 @@
 	<Property Name="Serialized ACL" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Class API" Type="Folder">
-		<Item Name="Copy Class to Location.vi" Type="VI" URL="../Class API/Copy Class to Location.vi"/>
+		<Item Name="Copy Class Item.vi" Type="VI" URL="../Class API/Copy Class Item.vi"/>
+		<Item Name="Create LVClass Copy.vi" Type="VI" URL="../Class API/Create LVClass Copy.vi"/>
+		<Item Name="Delete LVClass Item.vi" Type="VI" URL="../Class API/Delete LVClass Item.vi"/>
+		<Item Name="Find Class in ProjectItem.vi" Type="VI" URL="../Class API/Find Class in ProjectItem.vi"/>
+		<Item Name="Get LVClass Item Path.vi" Type="VI" URL="../Class API/Get LVClass Item Path.vi"/>
 		<Item Name="Open LVClass.vi" Type="VI" URL="../Class API/Open LVClass.vi"/>
+		<Item Name="Ref to LVClass.vi" Type="VI" URL="../Class API/Ref to LVClass.vi"/>
+		<Item Name="Save LVClass.vi" Type="VI" URL="../Class API/Save LVClass.vi"/>
 	</Item>
 	<Item Name="Library API" Type="Folder">
 		<Item Name="Add File to Lib.vi" Type="VI" URL="../Library API/Add File to Lib.vi"/>
-		<Item Name="Copy Library to Location.vi" Type="VI" URL="../Library API/Copy Library to Location.vi"/>
+		<Item Name="Add LVClass to Lib.vi" Type="VI" URL="../Library API/Add LVClass to Lib.vi"/>
+		<Item Name="Copy Library Item.vi" Type="VI" URL="../Library API/Copy Library Item.vi"/>
+		<Item Name="Find Library in ProjectItem.vi" Type="VI" URL="../Library API/Find Library in ProjectItem.vi"/>
 		<Item Name="Open Library.vi" Type="VI" URL="../Library API/Open Library.vi"/>
+		<Item Name="Ref To Library.vi" Type="VI" URL="../Library API/Ref To Library.vi"/>
 		<Item Name="Save Library.vi" Type="VI" URL="../Library API/Save Library.vi"/>
 	</Item>
 	<Item Name="Project API" Type="Folder">
@@ -55,6 +64,9 @@
 		<Item Name="Get ProjectItem Descendants.vi" Type="VI" URL="../Project API/Get ProjectItem Descendants.vi"/>
 		<Item Name="Open Project.vi" Type="VI" URL="../Project API/Open Project.vi"/>
 		<Item Name="Get ClassItems from ProjectItem.vi" Type="VI" URL="../Project API/Get ClassItems from ProjectItem.vi"/>
+		<Item Name="Get LibItems from ProjectItem.vi" Type="VI" URL="../Project API/Get LibItems from ProjectItem.vi"/>
+		<Item Name="Get MyComputer.vi" Type="VI" URL="../Project API/Get MyComputer.vi"/>
+		<Item Name="Delete LVClass from ProjectItem.vi" Type="VI" URL="../Project API/Delete LVClass from ProjectItem.vi"/>
 	</Item>
 	<Item Name="VI API" Type="Folder">
 		<Item Name="Block Diagram" Type="Folder">
