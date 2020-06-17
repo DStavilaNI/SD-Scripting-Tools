@@ -1,0 +1,2 @@
+*.vi diff=labview-diff
+*.vim diff=labview-diff
